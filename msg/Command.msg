@@ -1,3 +1,3 @@
-String Command
-String Content
-String Sender
+string command
+string content
+string sender
