@@ -11,10 +11,14 @@ endif()
 
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED) # メッセージ生成に必要
+find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 # メッセージ型定義ファイルからヘッダーファイル等を生成する
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/Command.msg"
+    "msg/Location.msg"
+    DEPENDENCIES std_msgs geometry_msgs
   )
 
 ament_package()
