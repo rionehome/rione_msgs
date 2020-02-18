@@ -18,6 +18,7 @@ find_package(geometry_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/Command.msg"
     "msg/Location.msg"
+    "msg/Request.msg"
     DEPENDENCIES std_msgs geometry_msgs
   )
 
