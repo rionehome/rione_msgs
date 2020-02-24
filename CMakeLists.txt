@@ -19,8 +19,8 @@ find_package(sensor_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/Command.msg"
     "msg/Location.msg"
+    "msg/PredictResult.msg"
     "srv/RequestLocation.srv"
-    "srv/RequestFaceDetection.srv"
     DEPENDENCIES std_msgs geometry_msgs sensor_msgs
   )
 
