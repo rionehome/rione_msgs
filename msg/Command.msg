@@ -1,5 +1,5 @@
 std_msgs/Header header
-bool   flag
-string command
-string content
-string sender
+std_msgs/Bool   flag
+std_msgs/String command
+std_msgs/String content
+std_msgs/String sender

@@ -1,3 +1,3 @@
-string              name
+std_msgs/String              name
 geometry_msgs/Point position
-string[]            contents
+std_msgs/String[]            contents

@@ -1,8 +1,8 @@
 std_msgs/Header header
-string command
+std_msgs/String command
 Location[] locations
-string file
+std_msgs/String file
 ---
 std_msgs/Header header
-bool flag
+std_msgs/Bool flag
 Location[] locations
