@@ -1,0 +1,8 @@
+std_msgs/Header header
+string command
+Location[] locations
+string file
+---
+std_msgs/Header header
+bool flag
+Location[] locations

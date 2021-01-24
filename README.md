@@ -4,6 +4,8 @@
 
 ## 種類
 Command.msg
+- flag : bool
+> 開始合図なの終了合図なのかの判断を行うためのフラッグ
 - command : string
 > 実行して欲しいコマンドを格納
 - content : string
